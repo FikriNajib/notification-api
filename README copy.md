@@ -1,5 +1,7 @@
-# notification-api
-API with pubsub kafka to notification using push-notification(clevertap) , send email(sengrid) , sms (sms alibaba)
+
+# Notification API
+
+This project is send notif to 3rd party (example: clevertap)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,13 +15,10 @@ API with pubsub kafka to notification using push-notification(clevertap) , send 
 
 ## Introduction
 
-This project is send payload to post into 3rd party (example: clevertap, sendgrid, sms alibaba) using queue , and then 3rd party will send notif to user
+This project is send payload to post into 3rd party (example: clevertap) using queue , and then 3rd party will send notif to user
 requirement :
 1. Mysql
 2. Kafka
-3. Credential Clevertap
-4. Credential Sengrid
-5. Credential Alibaba SMS
 
 ## Features
 This project will provide
@@ -30,7 +29,9 @@ This project will provide
 ## Getting Started
 ### Prerequisites
 
-Go version 1.21 
+Golang version 1.18 
+
+
 
 ## Step Running
 
